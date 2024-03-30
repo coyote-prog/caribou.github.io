@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./source/ticker.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Caribou</title>
+</head>
+
+<body>
+
+  <div class="holder">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo header__logo" href="#">
+            <img class="logo-img" src="./images/logo.svg" width="182" height="56" alt="caribou">
+          </a>
+          <div class="header__slogan-box">
+            <p class="header__slogan">Talk to our team to start saving </p>
+            <div id="counters_1" class="counter-box">
+              <span class="header__count counter" data-TargetNum="1" data-Easing="linear">
+                1</span>.
+              <span class="header__count counter" data-TargetNum="877" data-Easing="linear">
+                877</span>.
+              <span class="header__count counter" data-TargetNum="445" data-Easing="linear">
+                445</span>.
+              <span class="header__count">
+                00</span>
+              <span class="header__count counter" data-TargetNum="70" data-Easing="linear">70
+              </span>
+            </div>
+          </div>
+          <a class="header__login" href="#">Login</a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero__inner">
+            <p class="link-box">
+              <a class="cta-link" href="#">Get started</a>
+            </p>
+            <h1 class="title" data-aos="fade-down">Take control of your car payments</h1>
+            <p class="hero__subtitle">You could save 1110+ a month on your car loan*</p>
+            <button class="btn-border hero__btn">
+              <span class="btn__text">Check your rate for free!</span>
+              <svg class="btn__icon">
+                <use class="arrow-svg-icon" xlink:href="./images/sprite.svg#arrow-btn"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <div class="ticker-box">
+        <div class="container">
+          <div class="ticker-box__inner">
+            <ul class="ticker__list">
+              <li class="ticker__element">
+
+                <svg class="ticker-img">
+                  <use class="check-icon" href="images/sprite.svg#ticker-check"></use>
+                </svg>
+
+                <!-- <img class="ticker-img" src="./images/ticker-icon-check.svg" alt="check"> -->
+                <p class="ticker__text">No impact to your credit score +</p>
+
+                <svg class="ticker-question">
+                  <use class="question-icon" xlink:href="./images/sprite.svg#ticker-question-icon"></use>
+                </svg>
+
+                <!-- <img class="ticker__icon" src="./images/ticker-question-icon.svg" alt="question"> -->
+              </li>
+              <li class="ticker__element">
+
+                <svg class="ticker-img">
+                  <use class="check-icon" xlink:href="./images/sprite.svg#ticker-check"></use>
+                </svg>
+
+                <!-- <img class="ticker-img" src="./images/ticker-icon-check.svg" alt="check"> -->
+                <p class="ticker__text">No hidden fees</p>
+
+                <svg class="ticker-question">
+                  <use class="question-icon" xlink:href="./images/sprite.svg#ticker-question-icon"></use>
+                </svg>
+
+                <!-- <img class="ticker__icon" src="./images/ticker-question-icon.svg" alt="question"> -->
+              </li>
+              <li class="ticker__element">
+
+                <svg class="ticker-img">
+                  <use class="check-icon" xlink:href="./images/sprite.svg#ticker-check"></use>
+                </svg>
+
+                <!-- <img class="ticker-img" src="./images/ticker-icon-check.svg" alt="check"> -->
+                <p class="ticker__text">No SSN required ++</p>
+
+                <svg class="ticker-question">
+                  <use class="question-icon" xlink:href="./images/sprite.svg#ticker-question-icon"></use>
+                </svg>
+
+                <!-- <img class="ticker__icon" src="./images/ticker-question-icon.svg" alt="question"> -->
+              </li>
+              <!-- <li class="ticker__element" aria-hidden="true">
+                <img class="ticker-img" src="./images/ticker-icon-check.svg" alt="check">
+              <p class="ticker__text">No impact to your credit score +</p>
+              <img class="ticker__icon" src="./images/ticker-question-icon.svg" alt="question">
+              </li> -->
+              <!-- <li class="ticker__element" aria-hidden="true">
+                <img class="ticker-img" src="./images/ticker-icon-check.svg" alt="check">
+              <p class="ticker__text">No hidden fees</p>
+              <img class="ticker__icon" src="./images/ticker-question-icon.svg" alt="question">
+              </li>
+              <li class="ticker__element" aria-hidden="true">
+                <img class="ticker-img" src="./images/ticker-icon-check.svg" alt="check">
+              <p class="ticker__text">No SSN required ++</p>
+              <img class="ticker__icon" src="./images/ticker-question-icon.svg" alt="question">
+              </li>
+              <li class="ticker__element" aria-hidden="true">
+                <img class="ticker-img" src="./images/ticker-icon-check.svg" alt="check">
+              <p class="ticker__text">No impact to your credit score +</p>
+              <img class="ticker__icon" src="./images/ticker-question-icon.svg" alt="question">
+              </li>
+              <li class="ticker__element" aria-hidden="true">
+                <img class="ticker-img" src="./images/ticker-icon-check.svg" alt="check">
+              <p class="ticker__text">No hidden fees</p>
+              <img class="ticker__icon" src="./images/ticker-question-icon.svg" alt="question">
+              </li>
+              <li class="ticker__element" aria-hidden="true">
+                <img class="ticker-img" src="./images/ticker-icon-check.svg" alt="check">
+              <p class="ticker__text">No SSN required ++</p>
+              <img class="ticker__icon" src="./images/ticker-question-icon.svg" alt="question">
+              </li> -->
+          </div>
+        </div>
+      </div>
+      <section class="news">
+        <div class="container">
+          <div class="news__inner">
+            <h2 class="section-title news__title">
+              IN THE NEWS
+            </h2>
+            <ul class="news__list">
+              <li class="news__item" data-aos="flip-down">
+                <a class="news__link" href="#">
+                  <img class="news__img" src="./images/news-1.png" alt="news source">
+                </a>
+              </li>
+              <li class="news__item">
+                <a class="news__link" href="#" data-aos="flip-down" data-aos-delay="100">
+                  <img class="news__img" src="./images/news-2.png" alt="news source">
+                </a>
+              </li>
+              <li class="news__item">
+                <a class="news__link" href="#" data-aos="flip-down" data-aos-delay="200">
+                  <img class="news__img" src="./images/news-3.png" alt="news source">
+                </a>
+              </li>
+              <li class="news__item">
+                <a class="news__link" href="#" data-aos="flip-down" data-aos-delay="300">
+                  <img class="news__img" src="./images/news-4.png" alt="news source">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="refinance">
+        <div class="container">
+          <div class="refinance__inner">
+            <div class="refinance__content">
+              <h2 class="section-title refinance__title">
+                DID YOU GET FINANCING FROM YOUR DEALER?
+              </h2>
+              <p class="subtitle refinance__subtitle">
+                Fast, easy auto refinance
+              </p>
+              <p class="refinance__text">
+                Instantly access competitive rates in minutes, with a dedicated team available to walk you through the
+                process.
+              </p>
+              <a class="btn-border refinance__link" href="#">
+                See how it works
+              </a>
+            </div>
+            <picture class="refinance__image-box" data-aos="flip-right">
+              <source type="image/webp" srcset="./images/easy.webp">
+              <img class="refinance__img" src="./images/easy.png" width="516" height="592" loading="lazy"
+                alt="refinance">
+            </picture>
+          </div>
+        </div>
+      </section>
+      <div class="consulting">
+        <div class="container">
+          <div class="consulting__inner">
+            <picture class="consulting-image-box" data-aos="zoom-in" data-aos-offset="250">
+              <source type="image/webp" srcset="./images/easy-2.webp">
+              <img class="consulting-image" src="./images/easy-2.png" loading="lazy" alt="consulting-image">
+            </picture>
+          </div>
+        </div>
+      </div>
+      <section class="insurance">
+        <div class="container">
+          <div class="insurance__inner">
+            <h2 class="section-title insurance__title">
+              FIND THE RIGHT COVERAGE FOR YOU
+            </h2>
+            <p class="subtitle insurance__subtitle">
+              Choose car insurance with confidence
+            </p>
+            <p class="insurance__text">
+              We shop and compare insurance quotes from trusted carriers in minutes, saving you time and the hassle of
+              having to research on your own.
+            </p>
+            <a class="btn-border insurance__link" href="#">
+              Get a quote
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="discover">
+        <div class="container">
+          <div class="discover__inner">
+            <h2 class="section-title discover__title">
+              Are you getting the most out of your savings?
+            </h2>
+            <p class="subtitle discover__subtitle">
+              Discover how much you could save
+            </p>
+            <p class="discover__text">
+              Drivers could save more when they refinance and switch their car insurance through Caribou.
+            </p>
+            <a class="discover__link" href="#">
+              <span class="discover__link-text">Get started</span>
+              <svg class="discover__link-icon">
+                <use class="arrow-svg-icon" xlink:href="./images/sprite.svg#arrow-btn">
+              </svg>
+            </a>
+            <picture class="discover-image-box" data-aos="zoom-in" data-aos-offset="250">
+              <source type="image/webp" srcset="./images/discover.webp">
+              <img class="discover__img" src="./images/discover.png" width="1168" height="569" loading="lazy"
+                alt="discover">
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="customers">
+        <div class="container">
+          <div class="customers__inner">
+            <h2 class="section-title customers__title">
+              CUSTOMER STORIES
+            </h2>
+            <p class="subtitle customers__subtitle">
+              75,000+ happy drivers with more cash in their wallets
+            </p>
+            <div class="rating-box">
+              <div class="rating">
+                <svg class="rating__star">
+                  <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                </svg>
+                <svg class="rating__star">
+                  <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                </svg>
+                <svg class="rating__star">
+                  <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                </svg>
+                <svg class="rating__star">
+                  <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                </svg>
+                <svg class="rating__star">
+                  <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                </svg>
+              </div>
+              <p class="rating__text">
+                4.5 star reviews from our clients on
+              </p>
+              <a class="rating__link" href="#">
+                Trustpilot
+              </a>
+            </div>
+            <div class="rating__slider-box">
+              <div class="rating__slider">
+                <div class="rating__slider-item" data-aos="flip-left" data-aos-delay="100">
+                  <div class="rating__item-inner">
+                    <div class="rating rating__item-rating-box">
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                    </div>
+                    <p class="rating__item-text">
+                      We wanted to refinance our vehicle because our old lender kept making mistakes and providing
+                      poor service. Not only did Caribou provide excellent service, but they helped us lower our rate,
+                      term and payment! What a nice surprise and a great experience!
+                    </p>
+                    <p class="rating__author">
+                      Jessie
+                    </p>
+                    <div class="rating__author-data">
+                      <svg class="rating__icon">
+                        <use class="customers__pin-icon" xlink:href="./images/sprite.svg#stories-pin-icon"></use>
+                      </svg>
+                      <p class="rating__author__date">
+                        October 25,<span class="rating__author-year">2022</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rating__slider-item" data-aos="flip-left" data-aos-delay="200">
+                  <div class="rating__item-inner">
+                    <div class="rating rating__item-rating-box">
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                    </div>
+                    <p class="rating__item-text">
+                      The refi experience with Caribou was quick and easy. Fill out a form online, get an email and
+                      call within a few days, and boom, new low car payment in a couple of weeks. They did all the
+                      heavy lifting, were pleasant, helpful, and informative.
+                    </p>
+                    <p class="rating__author">
+                      Danny
+                    </p>
+                    <div class="rating__author-data">
+                      <svg class="rating__icon">
+                        <use class="customers__pin-icon" xlink:href="./images/sprite.svg#stories-pin-icon"></use>
+                      </svg>
+                      <p class="rating__author__date">
+                        September 28,<span class="rating__author-year">2022</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rating__slider-item" data-aos="flip-left" data-aos-delay="300">
+                  <div class="rating__item-inner">
+                    <div class="rating rating__item-rating-box">
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                    </div>
+                    <p class="rating__item-text">
+                      The refi experience with Caribou was quick and easy. Fill out a form online, get an email and
+                      call within a few days, and boom, new low car payment in a couple of weeks. They did all the
+                      heavy lifting, were pleasant, helpful, and informative.
+                    </p>
+                    <p class="rating__author">
+                      Danny
+                    </p>
+                    <div class="rating__author-data">
+                      <svg class="rating__icon">
+                        <use class="customers__pin-icon" xlink:href="./images/sprite.svg#stories-pin-icon"></use>
+                      </svg>
+                      <p class="rating__author__date">
+                        September 28,<span class="rating__author-year">2022</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rating__slider-item" data-aos="flip-left" data-aos-delay="100">
+                  <div class="rating__item-inner">
+                    <div class="rating rating__item-rating-box">
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                    </div>
+                    <p class="rating__item-text">
+                      We wanted to refinance our vehicle because our old lender kept making mistakes and providing
+                      poor service. Not only did Caribou provide excellent service, but they helped us lower our rate,
+                      term and payment! What a nice surprise and a great experience!
+                    </p>
+                    <p class="rating__author">
+                      Jessie
+                    </p>
+                    <div class="rating__author-data">
+                      <svg class="rating__icon">
+                        <use class="customers__pin-icon" xlink:href="./images/sprite.svg#stories-pin-icon"></use>
+                      </svg>
+                      <p class="rating__author__date">
+                        October 25,<span class="rating__author-year">2022</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rating__slider-item" data-aos="flip-left" data-aos-delay="200">
+                  <div class="rating__item-inner">
+                    <div class="rating rating__item-rating-box">
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                    </div>
+                    <p class="rating__item-text">
+                      The refi experience with Caribou was quick and easy. Fill out a form online, get an email and
+                      call within a few days, and boom, new low car payment in a couple of weeks. They did all the
+                      heavy lifting, were pleasant, helpful, and informative.
+                    </p>
+                    <p class="rating__author">
+                      Danny
+                    </p>
+                    <div class="rating__author-data">
+                      <svg class="rating__icon">
+                        <use class="customers__pin-icon" xlink:href="./images/sprite.svg#stories-pin-icon"></use>
+                      </svg>
+                      <p class="rating__author__date">
+                        September 28,<span class="rating__author-year">2022</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rating__slider-item" data-aos="flip-left" data-aos-delay="300">
+                  <div class="rating__item-inner">
+                    <div class="rating rating__item-rating-box">
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                      <svg class="rating__star">
+                        <use class="rating__icon" xlink:href="./images/sprite.svg#rating-star"></use>
+                      </svg>
+                    </div>
+                    <p class="rating__item-text">
+                      The refi experience with Caribou was quick and easy. Fill out a form online, get an email and
+                      call within a few days, and boom, new low car payment in a couple of weeks. They did all the
+                      heavy lifting, were pleasant, helpful, and informative.
+                    </p>
+                    <p class="rating__author">
+                      Danny
+                    </p>
+                    <div class="rating__author-data">
+                      <svg class="rating__icon">
+                        <use class="customers__pin-icon" xlink:href="./images/sprite.svg#stories-pin-icon"></use>
+                      </svg>
+                      <p class="rating__author__date">
+                        September 28,<span class="rating__author-year">2022</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="benefits">
+        <div class="container">
+          <div class="benefits__inner">
+            <ul class="benefits__list">
+              <li class="benefits__item" data-aos="fade-right" data-aos-delay="100">
+                No hidden fees.
+              </li>
+              <li class="benefits__item" data-aos="fade-right" data-aos-delay="200">
+                Co-borrowers welcome.
+              </li>
+              <li class="benefits__item" data-aos="fade-right" data-aos-delay="300">
+                Fully online process.
+              </li>
+            </ul>
+            <p class="benefits__text">
+              Got more questions? We've got answers.
+            </p>
+            <a class="btn-border benefits__link" href="#">
+              Search our FAQs
+            </a>
+          </div>
+        </div>
+      </div>
+      <section class="process">
+        <div class="container">
+          <div class="process__inner">
+            <h2 class="section-title process__title">
+              What sets us apart
+            </h2>
+            <p class="subtitle process__subtitle">
+              Tech to unlock low rates people to make the process easy
+            </p>
+            <div class="process__accordion-box process-accordion">
+              <div class="accordeon__item" data-aos="flip-up" data-aos-delay="100">
+                <input class="hidden-checkBox" id="hidden-checkBox" type="checkbox">
+                <div class="accordeon__content-box">
+                  <label class="accordeon__item-label" for="hidden-checkBox">
+                    <p class="accordeon__item-title">
+                      Competitive rates
+                    </p>
+                    <p class="accordeon__item-text">
+                      Gain access to affordable refi rates that could save you thousands over the life of your loan* and
+                      insurance quotes.
+                    </p>
+                  </label>
+                  <div class="accordeon__item-answer-box">
+                    <p class="accordeon__item-answer">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sed nemo aliquid enim molestiae
+                      incidunt! Repudiandae velit aliquid, omnis soluta ipsam magnam deserunt laborum debitis!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordeon__item" data-aos="flip-up" data-aos-delay="200">
+                <input class="hidden-checkBox" id="hidden-checkBox2" type="checkbox">
+                <div class="accordeon__content-box">
+                  <label class="accordeon__item-label" for="hidden-checkBox2">
+                    <svg class="accordeon__item-icon">
+                      <use class="accordeon__icon" xlink:href="./images/sprite.svg#accordion-2"></use>
+                    </svg>
+                    <p class="accordeon__item-title">
+                      Dedicated support
+                    </p>
+                    <p class="accordeon__item-text">
+                      Our team of loan officers and insurance representatives are standing by, happy to help you through
+                      either process.
+                    </p>
+                  </label>
+                  <div class="accordeon__item-answer-box">
+                    <p class="accordeon__item-answer">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sed nemo aliquid enim molestiae
+                      incidunt! Repudiandae velit aliquid, omnis soluta ipsam magnam deserunt laborum debitis!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordeon__item" data-aos="flip-up" data-aos-delay="300">
+                <input class="hidden-checkBox" id="hidden-checkBox3" type="checkbox">
+                <div class="accordeon__content-box">
+                  <label class="accordeon__item-label" for="hidden-checkBox3">
+                    <svg class="accordeon__item-icon">
+                      <use class="accordeon__icon" xlink:href="./images/sprite.svg#accordion-3"></use>
+                    </svg>
+                    <p class="accordeon__item-title">
+                      All in one place
+                    </p>
+                    <p class="accordeon__item-text">
+                      Take control of your car finances when you apply for refinancing and car insurance through
+                      Caribou.
+                    </p>
+                  </label>
+                  <div class="accordeon__item-answer-box">
+                    <p class="accordeon__item-answer">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sed nemo aliquid enim molestiae
+                      incidunt! Repudiandae velit aliquid, omnis soluta ipsam magnam deserunt laborum debitis!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordeon__item" data-aos="flip-up" data-aos-delay="400">
+                <input class="hidden-checkBox" id="hidden-checkBox4" type="checkbox">
+                <div class="accordeon__content-box">
+                  <label class="accordeon__item-label" for="hidden-checkBox4">
+                    <svg class="accordeon__item-icon">
+                      <use class="accordeon__icon" xlink:href="./images/sprite.svg#accordion-4"></use>
+                    </svg>
+                    <p class="accordeon__item-title">
+                      Fast and easy
+                    </p>
+                    <p class="accordeon__item-text">
+                      Quickly access offers with no hidden fees, no impact to your credit score,✝︎ and no SSN required.
+                    </p>
+                  </label>
+                  <div class="accordeon__item-answer-box">
+                    <p class="accordeon__item-answer">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sed nemo aliquid enim molestiae
+                      incidunt! Repudiandae velit aliquid, omnis soluta ipsam magnam deserunt laborum debitis!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bluebox">
+              <h3 class="cta">
+                Through Caribou, you could start saving today!
+              </h3>
+              <a class="btn-border bluebox-link" href="#">
+                Refinance my loan
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__menus menus">
+            <div class="menus__item">
+              <a class="footer__logo" href="#">
+                <svg class="footer__logo-img">
+                  <use class="footer__logo" xlink:href="./images/sprite.svg#logo"></use>
+                </svg>
+              </a>
+              <div class="menus__social-box"><a class="menus__link" href="#">
+                  <svg class="menus__social-icon menus__icon-xx">
+                    <use class="social-icon" xlink:href="./images/sprite.svg#xx"></use>
+                  </svg>
+                </a>
+                <a class="menus__link" href="#">
+                  <svg class="menus__social-icon menus__icon-insta">
+                    <use class="social-icon" xlink:href="./images/sprite.svg#insta"></use>
+                  </svg>
+                </a>
+                <a class="menus__link" href="#">
+                  <svg class="menus__social-icon menus__icon-facebook">
+                    <use class="social-icon" xlink:href="./images/sprite.svg#facebook"></use>
+                  </svg>
+                </a>
+                <a class="menus__link" href="#">
+                  <svg class="menus__social-icon">
+                    <use class="social-icon" xlink:href="./images/sprite.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="menus__item">
+              <h4 class="menus__title">
+                Products
+              </h4>
+              <ul class="menus__items-list">
+                <li class="menus__item">
+                  <a class="menu__item-link" href="#">
+                    Refinance
+                  </a>
+                </li>
+                <li class="menus__item">
+                  <a class="menu__item-link" href="#">
+                    Insurance
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="menus__item">
+              <h4 class="menus__title">
+                Company
+              </h4>
+              <ul class="menus__items-list">
+                <li class="menus__item">
+                  <a class="menu__item-link" href="#">
+                    About Us
+                  </a>
+                </li>
+                <li class="menus__item">
+                  <a class="menu__item-link" href="#">
+                    Careers
+                  </a>
+                </li>
+                <li class="menus__item">
+                  <a class="menu__item-link" href="#">
+                    Lending Partners
+                  </a>
+                </li>
+                <li class="menus__item">
+                  <a class="menu__item-link" href="#">
+                    Newsroom
+                  </a>
+                </li>
+                <li class="menus__item">
+                  <a class="menu__item-link" href="#">
+                    Contact Us
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="menus__item">
+              <h4 class="menus__title">
+                Resources
+              </h4>
+              <ul class="menus__items-list">
+                <li class="menus__item">
+                  <a class="menu__item-link" href="#">
+                    Resource Center
+                  </a>
+                </li>
+                <li class="menus__item">
+                  <a class="menu__item-link" href="#">
+                    Learning Library
+                  </a>
+                </li>
+                <li class="menus__item">
+                  <a class="menu__item-link" href="#">
+                    Find Savings by Vehicle
+                  </a>
+                </li>
+                <li class="menus__item">
+                  <a class="menu__item-link" href="#">
+                    Refinance Calculator
+                  </a>
+                </li>
+                <li class="menus__item">
+                  <a class="menu__item-link" href="#">
+                    FAQs
+                  </a>
+                </li>
+                <li class="menus__item">
+                  <a class="menu__item-link" href="#">
+                    Glossary
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="menus__item">
+              <h4 class="menus__title details-title">
+                Contact Details
+              </h4>
+              <p class="menus__nmls details">
+                NMLS #1746612
+              </p>
+              <p class="menus__number details">
+                1.877.445.0070
+              </p>
+              <p class="menus__schedule details">
+                Mon - Fri: 9am - 8pm EST
+              </p>
+              <p class="menus__schedule details">
+                Sat - Sun: 9am - 4pm EST
+              </p>
+              <address class="menus__address details">
+                1717 Rhode Island Ave, NW, Suite 500 Washington, DC 20036
+              </address>
+              <p class="menus__insurance details">
+                Caribou Insurance Services, LLC
+              </p>
+              <p class="menus__number insurance__number details">
+                1.877.445.0070
+              </p>
+              <p class="menus__insurance-schedule details">
+                Mon - Fri: 9am - 8pm ET
+              </p>
+              <a class="insurance-link details" href="mailto:insurance@gocaribou.com">
+                insurance@gocaribou.com
+              </a>
+              <a class="contacts-link details" href="mailto:contact@gocaribou.com">
+                contact@gocaribou.com
+              </a>
+            </div>
+          </div>
+          <div class="footer__content">
+            <p class="footer__content-item">
+              * This information is estimated based on consumers who were approved for an auto refinance loan through
+              Caribou on or after 1/1/2022, had an existing auto loan on their credit report, and accepted their final
+              terms. As of 9/27/2022, borrowers who refinance save an average of $111.16 per month. Refinance savings
+              may result from a lower interest rate, longer term, or both. There is no guarantee of savings. Your actual
+              savings, if any, may vary based on interest rates, the repayment term, the amount financed, and other
+              factors.
+            </p>
+            <p class="footer__content-item">
+              + To check the refinance rates and terms you qualify for, we conduct a soft credit pull that will not
+              affect your credit score. However, if you choose a loan product and continue your application, we or one
+              of our lending partners will request your full credit report from one or more consumer reporting agencies,
+              which is considered a hard credit pull and may affect your credit.
+            </p>
+            <p class="footer__content-item">
+              ++ Social security number is required should you choose to move forward in the loan application process.
+            </p>
+            <p class="footer__content-item">
+              ** APR is the Annual Percentage Rate. Your actual APR may be different. Your APR is based on multiple
+              factors including your credit profile and the loan to value of the vehicle. APR ranges from 2.83% to
+              36.00% and is determined at the time of application. Lowest APR is based on loan amount of $45,000, 36
+              month term, and is available to borrowers with excellent credit and only in certain states. Conditions
+              apply. Advertised rates and fees are valid as of 11/1/2022 and are subject to change without notice.
+              Insurance savings will not result from lower APR.
+            </p>
+            <p class="footer__content-item">
+              Terms and Conditions apply. Caribou reserves the right to modify or discontinue products and benefits at
+              any time without notice. Participating lenders, rates and terms are also subject to change at any time
+              without notice. The information you provide to us is an inquiry to determine whether our lenders can make
+              you a loan offer. If any of our lending partners has an available loan offer for you, you will be invited
+              to submit a loan application to the lender for its review. Not all borrowers receive the lowest rate.
+              Lowest rates are reserved for the highest qualified borrowers. We do not guarantee that you will receive
+              any loan offers or that your loan application will be approved. If approved, your actual rate will depend
+              on a variety of factors, including term of loan, a responsible financial history, income and other
+              factors. Offers not available in MA, MD, MS, NE, NV, WI, WV.
+            </p>
+            <p class="footer__content-item">
+              Insurance products offered through Bindable and Caribou Insurance Services, LLC. Caribou is working with
+              Bindable who owns MyLifeProtected and MassDrive Insurance Group, LLC, the licensed agent for all products.
+            </p>
+          </div>
+          <div class="footer__law">
+            <p class="footer__copy">
+              ©2023 Caribou Financial, Inc. d/b/a Caribou. All rights reserved.
+            </p>
+            <div class="footer__law-links-box">
+              <a class="footer__law-link" href="#">
+                Electronic Communications Consent
+              </a>
+              <a class="footer__law-link" href="#">
+                Privacy Policy
+              </a>
+              <a class="footer__law-link" href="#">
+                Your California Privacy Rights
+              </a>
+              <a class="footer__law-link" href="#">
+                Terms of Use
+              </a>
+              <a class="footer__law-link" href="#">
+                Disclosures
+              </a>
+              <a class="footer__law-link" href="#">
+                NMLS Consumer Access
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+  <script type="text/javascript" src="source/jquery.min.js"></script>
+  <script src="./source/ticker.min.js"></script>
+  <script src="./source/multi-animated-counter.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="./source/slick.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
